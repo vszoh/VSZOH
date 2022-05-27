@@ -12,7 +12,7 @@ let bot = {
 
 
 
-const guildId = "924832445050781766"
+const guildId = "971883266867081346"
 
 client.slashcommands = new Discord.Collection() 
 
@@ -29,4 +29,4 @@ client.on("ready", async () => {
     process.exit(0)
 })
 
-client.login(process.env.TOKEN
+client.login(process.env.TOKEN)
